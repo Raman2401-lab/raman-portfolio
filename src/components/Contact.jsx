@@ -77,7 +77,11 @@ const Contact = () => {
                             <div>
                                 <h3 className='text-lg font-semibold
                                  mb-2'> Email </h3>
+<<<<<<< HEAD
                                 <p className='text-gray-300'> ramanghule4@gmail.com | ghuleraman0@gmail.com </p>
+=======
+                                <p className='text-gray-300'> ghuleraman0@gmail.com | ramanghule4@gmail.com</p>
+>>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
                             </div>
                         </div> 
 
@@ -96,6 +100,7 @@ const Contact = () => {
                             <h3 className='text-lg font-semibold mb-4'>Follow Me </h3>
                               <div className='flex space-x-4'>
                                 
+<<<<<<< HEAD
                                    {/* GitHub */}
                                  <a
                                     href="https://github.com/Raman2401-lab" 
@@ -132,6 +137,21 @@ const Contact = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+=======
+                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
+                                     <FaGithub />
+                                 </a> 
+                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
+                                     <FaLinkedin />
+                                 </a> 
+                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
+                                     <FaInstagram />
+                                 </a>
+                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+>>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaWhatsapp />
                                  </a>

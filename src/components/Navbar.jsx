@@ -58,8 +58,12 @@ const Navbar = () => {
 
         {
             showMenu &&(
+<<<<<<< HEAD
 
              <div className='md:hidden mt-4 bg-black h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center'>
+=======
+                <div className='md:hidden mt-4 bg-black h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center'>
+>>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
                     
                 <a onClick={()=>setShowMenu(!showMenu)} href='#home' className='relative text-white/80 transition duration-300  hover:text-purple-700 group'>
                     <span>Home</span>
@@ -85,10 +89,17 @@ const Navbar = () => {
                     <span>Contact</span>
                     <span className='absolute left-0 bottom-1 w-0 h-0.5 bg-purple-800 transition-all duration-300 group-hover:w-full'></span>           
                 </a>
+<<<<<<< HEAD
 
             </div>
 
             )       
+=======
+                </div>
+
+            )       
+
+>>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
         }
     </nav>
   )
