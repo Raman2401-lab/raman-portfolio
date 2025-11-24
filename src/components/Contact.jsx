@@ -77,7 +77,7 @@ const Contact = () => {
                             <div>
                                 <h3 className='text-lg font-semibold
                                  mb-2'> Email </h3>
-                                <p className='text-gray-300'> ghuleraman0@gmail.com | ramanghule4@gmail.com</p>
+                                <p className='text-gray-300'> ramanghule4@gmail.com | ghuleraman0@gmail.com </p>
                             </div>
                         </div> 
 
@@ -96,19 +96,42 @@ const Contact = () => {
                             <h3 className='text-lg font-semibold mb-4'>Follow Me </h3>
                               <div className='flex space-x-4'>
                                 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+                                   {/* GitHub */}
+                                 <a
+                                    href="https://github.com/Raman2401-lab" 
+                                    target="_blank"
+                                    rel="noopener noreferrer" 
+                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] 
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaGithub />
-                                 </a> 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+                                 </a>
+
+                                    {/* LinkedIn */}
+                                 <a 
+                                    href="https://www.linkedin.com/in/raman-ghule-aaa0712b5"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] 
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaLinkedin />
                                  </a> 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+
+                                    {/* Instagram */}
+                                 <a 
+                                     href="https://www.instagram.com/ghuleraman_/"
+                                     target="_blank"
+                                     rel="noopener noreferrer"
+                                     className='w-12 h-12 rounded-full bg-[#1d1d1d] 
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaInstagram />
                                  </a>
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
+
+                                    {/* WhatsApp */}
+                                 <a 
+                                    href="https://wa.me/919607696525"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] 
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaWhatsapp />
                                  </a>
