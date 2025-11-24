@@ -15,12 +15,12 @@ const Contact = () => {
         >
             <div className='container mx-auto px-6'>
                 <h2 className='text-3xl font-bold text-center mb-4'>
-                    Get In 
-                    <span>Touch</span>
+                    Get In <span>Touch</span>
                 </h2>
                 <p className='text-gray-300 text-center max-w-2xl mx-auto mb-16'>Have a project in mind or want to collaborate ? Let's talk !</p>
+               
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12
-                max-w-5xl mx-auto'>
+                        max-w-5xl mx-auto'>
                     {/* Contact form  */}
                     <div>
                         <form className='space-y-6'>
@@ -75,13 +75,8 @@ const Contact = () => {
                                 <FaEnvelope />
                             </div>
                             <div>
-                                <h3 className='text-lg font-semibold
-                                 mb-2'> Email </h3>
-<<<<<<< HEAD
+                                <h3 className='text-lg font-semibold mb-2'> Email </h3>
                                 <p className='text-gray-300'> ramanghule4@gmail.com | ghuleraman0@gmail.com </p>
-=======
-                                <p className='text-gray-300'> ghuleraman0@gmail.com | ramanghule4@gmail.com</p>
->>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
                             </div>
                         </div> 
 
@@ -100,14 +95,13 @@ const Contact = () => {
                             <h3 className='text-lg font-semibold mb-4'>Follow Me </h3>
                               <div className='flex space-x-4'>
                                 
-<<<<<<< HEAD
+
                                    {/* GitHub */}
                                  <a
                                     href="https://github.com/Raman2401-lab" 
                                     target="_blank"
                                     rel="noopener noreferrer" 
-                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
+                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaGithub />
                                  </a>
 
@@ -116,8 +110,7 @@ const Contact = () => {
                                     href="https://www.linkedin.com/in/raman-ghule-aaa0712b5"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
+                                    className='w-12 h-12 rounded-full bg-[#1d1d1d] flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaLinkedin />
                                  </a> 
 
@@ -137,24 +130,9 @@ const Contact = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-=======
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
-                                     <FaGithub />
-                                 </a> 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
-                                     <FaLinkedin />
-                                 </a> 
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
-                                     flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
-                                     <FaInstagram />
-                                 </a>
-                                 <a href="#" className='w-12 h-12 rounded-full bg-[#1d1d1d] 
->>>>>>> af132de708c0bf158a90d390c50c99cc9e0815f5
                                      flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition duration-300'> 
                                      <FaWhatsapp />
-                                 </a>
+                                 </a>                                
                                  
 
                               </div>
